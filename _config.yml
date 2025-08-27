@@ -1,9 +1,9 @@
+
 remote_theme: SdtElectronics/jekyll-theme-antarctica
 
 title: Leslie's Professional Portfolio
 description: "Passionate about crafting functional websites that are a joy to use."
 
-# This section is required by the theme to build the main menu.
 navigation:
   - title: Home
     url: /
@@ -12,20 +12,22 @@ navigation:
   - title: Blog
     url: /blog
 
-# This section is for social media links.
 social:
   - name: github
     url: https://github.com/LeslieMBrock
   - name: linkedin
     url: https://www.linkedin.com/
 
-# This section is for the sidebar widgets.
 widgets:
   - id: posts
   - id: categories
   - id: tags
 
-# Ensure array variables are always arrays
+# Make sure these are all defined as arrays
 plugins: []
 exclude: []
 include: []
+menu: []
+links: []
+categories: []
+tags: []
