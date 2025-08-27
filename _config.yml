@@ -1,9 +1,9 @@
-
 remote_theme: SdtElectronics/jekyll-theme-antarctica
 
 title: Leslie's Professional Portfolio
 description: "Passionate about crafting functional websites that are a joy to use."
 
+# Main navigation menu
 navigation:
   - title: Home
     url: /
@@ -12,18 +12,26 @@ navigation:
   - title: Blog
     url: /blog
 
+# Social media links
 social:
   - name: github
     url: https://github.com/LeslieMBrock
   - name: linkedin
     url: https://www.linkedin.com/
 
+# Sidebar widgets
 widgets:
   - id: posts
   - id: categories
   - id: tags
 
-# Make sure these are all defined as arrays
+# Define the projects collection to avoid concat filter errors
+collections:
+  projects:
+    output: true
+    sort_by: date
+
+# These are not required, but ensure they're arrays if referenced (safe defaults)
 plugins: []
 exclude: []
 include: []
