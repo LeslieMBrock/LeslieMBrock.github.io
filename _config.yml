@@ -12,6 +12,13 @@ navigation:
   - title: Blog
     url: /blog
 
+# This section is for social media links.
+social:
+  - name: github
+    url: https://github.com/LeslieMBrock
+  - name: linkedin
+    url: https://www.linkedin.com/
+
 # This section is for the sidebar widgets.
 widgets:
   - id: posts
