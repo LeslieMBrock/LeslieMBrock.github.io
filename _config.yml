@@ -24,3 +24,8 @@ widgets:
   - id: posts
   - id: categories
   - id: tags
+
+# Ensure array variables are always arrays
+plugins: []
+exclude: []
+include: []
