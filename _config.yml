@@ -3,7 +3,16 @@ remote_theme: SdtElectronics/jekyll-theme-antarctica
 title: Leslie's Professional Portfolio
 description: "Passionate about crafting functional websites that are a joy to use."
 
-# The theme needs this widgets section to know what to display.
+# This section is required by the theme to build the main menu.
+navigation:
+  - title: Home
+    url: /
+  - title: Portfolio
+    url: /portfolio
+  - title: Blog
+    url: /blog
+
+# This section is for the sidebar widgets.
 widgets:
   - id: posts
   - id: categories
