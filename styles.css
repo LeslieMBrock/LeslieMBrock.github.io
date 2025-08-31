@@ -1,1 +1,8 @@
-
+.main-card {
+  background-color: #ffffff;  /* Sets the card color to white */
+  padding: 25px;              /* Adds space inside the card */
+  border-radius: 10px;        /* Creates rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+  max-width: 900px;           /* Sets a maximum width for the card */
+  margin: 40px auto;          /* Centers the card on the page */
+}
